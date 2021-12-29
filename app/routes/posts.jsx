@@ -1,8 +1,10 @@
+import { Outlet } from 'remix'
+
 function Posts() {
     return (
-        <div>
-            <h1>This is a POST route</h1>
-        </div>
+        <>
+            <Outlet />
+        </>
     )
 }
 

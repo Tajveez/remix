@@ -27,7 +27,6 @@ export const meta = () => {
 export default function App() {
   return (
     <Document title="Tajlogs">
-
       <Layout>
         <Outlet />
       </Layout>
@@ -64,7 +63,9 @@ function Layout({ children }) {
           </li>
         </ul>
       </nav>
-      {children}
+      <div className="container">
+        {children}
+      </div>
     </>
 
   )
