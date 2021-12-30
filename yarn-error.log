@@ -1,0 +1,51 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add prisma @prisma/client --verbose
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Tajveez\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\dotnet;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\Yarn\bin;C:\Program Files\PuTTY;C:\Program Files (x86)\Bitvise SSH Client;C:\Ruby30-x64\bin;C:\Users\Tajveez\AppData\Local\Programs\Python\Python37-32\Scripts;C:\Users\Tajveez\AppData\Local\Programs\Python\Python37-32;C:\Users\Tajveez\AppData\Local\Microsoft\WindowsApps;C:\Users\Tajveez\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Tajveez\AppData\Roaming\npm;C:\Users\Tajveez\AppData\Roaming\Composer\vendor\bin;C:\Users\Tajveez\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  16.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\Projects n Info\4. My Projects\JS roadmap\Remix\remix-blog\node_modules\esbuild-windows-64\esbuild.exe'
+
+npm manifest: 
+  {
+    "private": true,
+    "name": "remix-app-template-js",
+    "description": "",
+    "license": "",
+    "scripts": {
+      "build": "remix build",
+      "dev": "remix dev",
+      "postinstall": "remix setup node",
+      "start": "remix-serve build"
+    },
+    "dependencies": {
+      "@remix-run/react": "^1.1.1",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "remix": "^1.1.1"
+    },
+    "devDependencies": {
+      "@remix-run/dev": "^1.1.1",
+      "@remix-run/serve": "^1.1.1"
+    },
+    "engines": {
+      "node": ">=14"
+    },
+    "sideEffects": false
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
