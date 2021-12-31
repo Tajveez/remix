@@ -87,6 +87,12 @@ p {
   border-color: #000;
 }
 
+.btn-lite {
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+  /* border-color: #000; */
+}
 .btn:focus {
   outline: none;
 }
